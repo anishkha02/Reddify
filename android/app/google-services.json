@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "790078234253",
+    "project_id": "reddifyapp",
+    "storage_bucket": "reddifyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790078234253:android:60cef896c120c0e8378cc4",
+        "android_client_info": {
+          "package_name": "com.example.reddify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790078234253-ojs0krd6jsk3gi3d6d40t32i7p8fbt32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAePc47autUTAfWuWfhYalXOVEnGYij6-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790078234253-ojs0krd6jsk3gi3d6d40t32i7p8fbt32.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "790078234253-72b97hu7i5lf76vu2iv1d8r8obp96avp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.reddify"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
