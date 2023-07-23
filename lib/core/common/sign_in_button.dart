@@ -7,8 +7,8 @@ import 'package:reddify/theme/pallete.dart';
 class SignInButton extends ConsumerWidget {
   const SignInButton({super.key});
 
-  void signInWithGoogle(WidgetRef ref){
-    ref.read(authControllerProvider).signInWithGoogle();
+  void signInWithGoogle(BuildContext context,WidgetRef ref){
+    ref.read(authControllerProvider).signInWithGoogle(context);
     
   }
 
@@ -17,7 +17,7 @@ class SignInButton extends ConsumerWidget {
     return Padding(
       padding: const EdgeInsets.all(18.0),
       child: ElevatedButton.icon(
-        onPressed: ()=>signInWithGoogle(ref),
+        onPressed: ()=>signInWithGoogle(context ,ref),
         icon: Image.asset(
           Constants.googlePath,
           width: 35,

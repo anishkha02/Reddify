@@ -14,7 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "790078234253-ojs0krd6jsk3gi3d6d40t32i7p8fbt32.apps.googleusercontent.com",
+          "client_id": "790078234253-omglt27h1u94ns3b69loiuuj9s1ajuto.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reddify",
+            "certificate_hash": "a4cc63b47859d29784167559dc43bd4878a340b7"
+          }
+        },
+        {
+          "client_id": "790078234253-ags93rufcqddbk2pdp6227cb3vf220ss.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -27,7 +35,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "790078234253-ojs0krd6jsk3gi3d6d40t32i7p8fbt32.apps.googleusercontent.com",
+              "client_id": "790078234253-ags93rufcqddbk2pdp6227cb3vf220ss.apps.googleusercontent.com",
               "client_type": 3
             },
             {
