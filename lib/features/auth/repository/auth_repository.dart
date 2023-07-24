@@ -5,13 +5,19 @@ import 'package:fpdart/fpdart.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:reddify/core/constants/constants.dart';
 import 'package:reddify/core/constants/firebase_constants.dart';
+import 'package:reddify/core/failure.dart';
 import 'package:reddify/core/providers/firebase_providers.dart';
 import 'package:reddify/core/type_defs.dart';
 import 'package:reddify/models/user_model.dart';
 
-import '../../../core/failure.dart';
 
-final authRepositoryProvider=Provider((ref)=>AuthRepository(firestore: ref.read(firestoreProvider), auth: ref.read(authProvider), googleSignIn: ref.read(googleSignInProvider),),);
+final authRepositoryProvider=Provider(
+  (ref)=>AuthRepository(
+    firestore: ref.read(firestoreProvider), 
+    auth: ref.read(authProvider), 
+    googleSignIn: ref.read(googleSignInProvider),
+    ),
+  );
 
 class AuthRepository{
   final FirebaseFirestore _firestore;
