@@ -14,8 +14,8 @@ class LoginScreen extends ConsumerWidget {
       appBar: AppBar(
        title: Center(
          child: Image.asset(
-          Constants.logoPath,
-          height: 40,
+            Constants.logoPath,
+            height: 40,
           ),
        ),
         actions: [
